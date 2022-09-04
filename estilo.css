@@ -1,0 +1,152 @@
+
+body{
+  
+  background: #568203;
+  font-family: sans-serif;
+
+}
+
+
+.contenedor-1{
+  color: black;
+  background: #004D40;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  min-width: 325px;
+
+}
+
+
+.contenedor-2{
+  color: black;
+  background: #004D40;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  min-width: 300px;
+
+}
+/*h1{
+  color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+
+
+}
+
+p{
+  color: black;
+  text-align: center;
+}*/
+.jardin{
+  
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  display: block;
+
+}
+
+.arbol2{
+  
+  display: flex;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+
+.arbol1{
+  
+  display: flex;
+  margin: auto;
+  border-radius: 10px;
+
+  text-align: center;
+}
+.texto-justificado{
+text-align: justify;
+}
+
+p{
+  margin: 20px;
+}
+
+
+/*img{
+  transition: transform 5s;
+  object-fit: cover;
+}
+
+img:hover{
+  transform: scale(1.3);
+}*/
+
+.text {
+  font-size:10px;
+  font-family:helvetica;
+  font-weight:bold;
+  color: #ffffff;
+}
+.parpadea {
+  
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+
+.jardin {
+   cursor: -webkit-zoom-in;
+   cursor: zoom-in;
+}
+
+
+
+
+a img {
+  border-radius: 50%;
+  cursor: pointer;
+  width: 30px;
+  transition: width 1.5s;
+}
+
+a img:hover {
+  box-shadow: 5px 10px black;
+  width: 40px;
+}
+
+
+h1{
+  color: #ffffff;
+}
